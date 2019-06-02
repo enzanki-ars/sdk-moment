@@ -1,6 +1,6 @@
 <svg>
   <rect id="background" />
-  <text id="txtTime" class="clock-text">13:37</text>
+  <text id="txtTime" class="clock-text">13:37:00</text>
   <rect class="divider divider-top" />
   <text id="txtDate" class="date-text">MON JANUARY 01</text>
   <rect class="divider divider-btm" />

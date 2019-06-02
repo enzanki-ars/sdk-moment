@@ -15,6 +15,15 @@
       "en": {
         "name": "SDK Moment"
       }
-    }
+    },
+    "appUUID": "2d880ff0-0acc-41f8-8af7-85d7a35fff00"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0",
+    "@fitbit/sdk-cli": "^1.6.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "fitbit-build"
   }
 }

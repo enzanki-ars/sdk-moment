@@ -28,14 +28,15 @@ function tickHandler(evt) {
   let hours = today.getHours();
   if (preferences.clockDisplay === "12h") {
     // 12h format
-    hours = hours % 12 || 12;
+    hours = util.monoDigits(hours % 12 || 12);
   } else {
     // 24h format
-    hours = util.zeroPad(hours);
+    hours = util.monoDigits(util.zeroPad(hours));
   }
-  let mins = util.zeroPad(today.getMinutes());
+  let mins = util.monoDigits(util.zeroPad(today.getMinutes()));
+  let secs = util.monoDigits(util.zeroPad(today.getSeconds()));
 
-  let timeString = `${hours}:${mins}`;
+  let timeString = `${hours}:${mins}:${secs}`;
   let dateString = today;
 
   switch(dateFormat) {

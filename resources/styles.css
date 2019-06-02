@@ -7,10 +7,10 @@
 }
 
 .clock-text {
-  font-family: Colfax-Light;
-  font-size: 105;
+  font-family: Seville-Regular;
+  font-size: 64;
   text-anchor: middle;
-  text-length: 10;
+  text-length: 8;
   x: 50%;
   y: 50%-25;
   width: 100%;
